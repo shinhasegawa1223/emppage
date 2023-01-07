@@ -1,0 +1,36 @@
+!SESSION 2023-01-07 22:59:00.771 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/hasegawashin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/hasegawashin/.eclipse_keyring
+
+This is a continuation of log file /Users/hasegawashin/Downloads/2023/.metadata/.bak_0.log
+Created Time: 2023-01-07 23:01:12.194
+
+!ENTRY org.eclipse.debug.core 4 2 2023-01-07 23:01:12.194
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1260)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:492)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-01-07 23:01:12.194
+!MESSAGE デバッグ・イベントのディスパッチ中に例外が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.LinkedList.remove(Object)" because "this.processes" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.LiveProcessTracker.processTerminated(LiveProcessTracker.java:64)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList.handleDebugEvent(LaunchList.java:91)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchList$1.handleDebugEvents(LaunchList.java:63)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1260)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:492)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

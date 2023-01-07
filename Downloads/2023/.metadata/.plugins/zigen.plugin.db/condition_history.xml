@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.4.1" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <string>jdbc:mysql://localhost/ELBOOK2022.EL_USER</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object class="java.util.ArrayList" id="ArrayList0"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost/ELBOOK2022</string>
+    </void>
+    <void property="table">
+     <string>EL_USER</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jdbc:mysql://localhost/ELBOOK2022.ELBOOK2022.EL_USER</string>
+   <object class="zigen.plugin.db.core.Condition">
+    <void property="conditions">
+     <object idref="ArrayList0"/>
+    </void>
+    <void property="connectionUrl">
+     <string>jdbc:mysql://localhost/ELBOOK2022</string>
+    </void>
+    <void property="schema">
+     <string>ELBOOK2022</string>
+    </void>
+    <void property="table">
+     <string>EL_USER</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
